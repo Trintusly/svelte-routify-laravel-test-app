@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+$vistora: #7957D5;
+$halloween: #eb974e;
+
+$cyan: $vistora;
+$blue: $vistora;
+$primary: $vistora;
+
+// Set your brand colors
+
+$off-white: rgb(246, 246, 246);
+$muted: rgb(124, 123, 123);
+$dark-lightest: #2b2b2b;
+$dark-lighter: #222224;
+$darker: #1C1C21  ;
+$dark: #191919 ;
+$darkest: #191919;
+
+// Main
+
+$container-max-width: 1111px;
+$body-background-color: $dark;
+$body-color: $off-white;
+$hr-background-color: $dark-lightest;
+$hr-height: 0.25px;
+$strong-color: $off-white;
+
+// Typography
+
+$title-color: $off-white;
+$subtitle-color: $off-white;
+
+// Navbar
+
+$navbar-padding: 20px;
+$navbar-background-color: $darker;
+$navbar-item-hover-background-color: $dark;
+$navbar-item-hover-color: $off-white;
+$navbar-dropdown-background-color: $dark-lighter;
+$navbar-dropdown-item-hover-background-color: $dark;
+$navbar-dropdown-item-hover-color: $off-white;
+$navbar-divider-background-color: $dark-lightest;
+$navbar-divider-height: 0.2px;
+$navbar-item-color: $off-white;
+$navbar-color: $off-white;
+
+// Box
+
+$box-background-color: $darker;
+$box-color: $off-white;
+
+// Card
+
+$card-background-color: $darker;
+$card-color: $off-white;
+
+// Media
+
+$media-border-color: $dark-lightest;
+
+// Tabs
+
+$menu-label-color: $muted;
+$menu-item-color: $off-white;
+$menu-item-hover-background-color: $dark-lightest;
+$menu-item-hover-color: $off-white;
+
+// Form
+
+$label-color: $off-white;
+$input-background-color: $darkest;
+$input-border-color: $darker;
+$input-hover-border-color: none;
+$input-color: #fff;
+$input-disabled-background-color: $dark-lighter;
+$input-disabled-border-color: $dark-lighter;
+
+// Breadcrumb
+
+$breadcrumb-item-active-color: $off-white;
+
+// Pagination
+
+$pagination-color: $off-white;
+$pagination-hover-color: $off-white;
+$pagination-border-color: $darker;
+$pagination-background-color: $dark-lighter;
+$pagination-ellipsis-color: $off-white;
+$pagination-disabled-background-color: $dark-lighter;
+$pagination-disabled-border-color: $darker;
+
+// Footer
+
+$footer-background-color: $dark;
+$footer-color: $off-white;
+
+// Tagz
+
+$tag-background-color: $dark-lightest;
+$tag-color: $off-white;
+
+// Tab
+
+$tabs-link-color: $off-white;
+$tabs-link-hover-color: $off-white;
+$tabs-border-bottom-color: $dark-lightest;
+
+// Table
+$table-cell-heading-color: $blue;
+$table-color: $off-white;
+$table-cell-heading-color: $off-white;
+$table-background-color: $darker;
+$table-striped-row-even-background-color: $darkest;
+$table-head-cell-border-width: 0 0 0.45px;
+$table-head-cell-color: $off-white;
+$table-row-active-background-color: $dark;
+$table-foot-cell-border-width: 0 0 0px;
+
+// Modal
+
+$modal-card-head-background-color: $dark-lighter;
+$modal-card-body-background-color: $dark-lighter;
+$modal-card-foot-border-top: 1px solid $dark-lightest;
+@import "../../../node_modules/bulma/bulma.sass";
